@@ -1,0 +1,59 @@
+/* Common Style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    width: 60%;
+    margin: auto;
+}
+
+/* Add Book Section Style */
+
+/* Input Field Style */
+input {
+    padding: 10px;
+    width: 97%;
+    margin: 10px 0;
+}
+
+/* Button Style */
+button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Alert Style */
+.alert-success, .alert-failed {
+    color: white;
+    width: 97%;
+    padding: 10px;
+}
+
+.alert-success {
+    background-color: rgb(114, 199, 114);
+}
+
+.alert-failed {
+    background-color: rgb(230, 65, 65);
+}
+
+/* Book List Section Style */
+table {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+th, td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Footer Style */
+span {
+    color: red;
+}
